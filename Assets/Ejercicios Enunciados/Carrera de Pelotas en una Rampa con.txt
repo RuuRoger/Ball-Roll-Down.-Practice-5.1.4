@@ -1,0 +1,42 @@
+Carrera de Pelotas en una Rampa con Obstáculos
+
+
+Objetivo: Crear un pequeño juego en el que controles una pelota que debe descender por una rampa llena de obstáculos, recogiendo objetos a lo largo del camino.
+
+Descripción:
+
+Configuración del Escenario:
+
+Crea una rampa inclinada con varios obstáculos distribuidos por toda su longitud.
+
+Añade una pelota que el jugador puede controlar.
+
+Controles de la Pelota:
+
+Utiliza Rigidbody y AddForce para mover la pelota.
+
+Añade controles para mover la pelota hacia la izquierda y derecha mientras desciende por la rampa.
+
+Obstáculos:
+
+Coloca obstáculos fijos y móviles que la pelota debe esquivar.
+
+Recogida de Objetos:
+
+Añade objetos coleccionables a lo largo de la rampa que la pelota debe recoger.
+
+Usa OnTriggerEnter para detectar la recogida de objetos y aumentar el puntaje.
+
+Final de la Carrera:
+
+Crea una meta en la parte inferior de la rampa para finalizar la carrera.
+
+Muestra el puntaje total cuando la pelota llegue a la meta.
+
+Elementos a Incluir
+
+Obstáculos Variados: Usa tanto obstáculos fijos como móviles para añadir dificultad.
+
+Coleccionables: Coloca objetos en la rampa que el jugador debe recoger para aumentar el puntaje.
+
+Meta: Define una zona de llegada donde la pelota debe llegar para completar el nivel.
